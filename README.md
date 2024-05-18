@@ -10,8 +10,8 @@ Në përmbledhje, ky projekt ilustron se si të sigurohet një komunikim i sigur
 
 
 ## Antaret e grupit
-#### -Andi Ternava
-#### -Alisa Shala
-#### -Amir Balje
-#### -Arbana Neziraj
+##### -Andi Ternava
+##### -Alisa Shala
+##### -Amir Balje
+##### -Arbana Neziraj
 
