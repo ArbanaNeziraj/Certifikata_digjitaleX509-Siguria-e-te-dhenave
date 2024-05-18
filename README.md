@@ -1,0 +1,1 @@
+# Certifikata_digjitaleX509-Siguria-e-te-dhenave
