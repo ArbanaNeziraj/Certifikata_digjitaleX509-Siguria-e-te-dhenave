@@ -1,2 +1,2 @@
 # Komunikim Klient-Server me TCP Certifikata_digjitaleX509
-Ky projekt demonstron nje aplikacion komunikimi klient-server duke perdorur protokollin TCP, ku te dhenat mes klientit dhe serverit jane te kriptuara dhe te nenshkruara ne menyre digjitale duke perdorur certifikata X.509.
+Ky projekt demonstron nje aplikacion komunikimi klient-server duke perdorur protokollin TCP, ku te dhenat mes klientit dhe serverit jane te kriptuara dhe te nenshkruara ne menyre digjitale duke perdorur certifikata X.509. Klienti kripton mesazhin duke përdorur çelësin publik të serverit dhe serveri dekripton mesazhin duke përdorur çelësin e tij privat. Shtimi i nënshkrimit digjital mund të bëhet duke përdorur funksionalitete të ngjashme nga biblioteka cryptography.
