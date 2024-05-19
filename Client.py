@@ -38,6 +38,3 @@ try:
     decrypted_response = cipher_suite.decrypt(response)
     print("\n>>Message sent from server(encrypted);",response)
     print(">> Decrypted message sent from server:",decrypted_response.decode(utf-8))
-finally:
-  print("closing connection")
-  ssl_sock.close()
