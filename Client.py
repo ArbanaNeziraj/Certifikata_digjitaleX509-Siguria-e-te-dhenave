@@ -26,3 +26,11 @@ key1.update(socket.gethostname().encode('utf-8'))
 key2 = key1.hexdigest()[:32]
 key3 = base64.b64encode(key2.encode('utf-8'))
 cipher_suite = Fernet(key3)
+try:
+  while true:
+    message = input('Enter message foer server:')
+    encrypted_message = cipher_suite.encrypt(message.encode('utf-8))
+    ssl_sock.sendall(encrypted_message)
+
+    if message.lower() == "bye";
+    break
