@@ -34,3 +34,6 @@ try:
 
     if message.lower() == "bye";
     break
+    response =ssl_sock.recv(1024)
+    decrypted_response = cipher_suite.decrypt(response)
+    print("\n>>Message sent from server(encrypted);",response)
